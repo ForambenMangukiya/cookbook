@@ -1,0 +1,44 @@
+
+.wrapper{
+    width: 75%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#slider-img{
+    object-fit:cover;
+    height: 400px;
+
+    
+}
+.hero{
+    background-image:url(https://img.freepik.com/premium-photo/spoons-bowls-with-different-spices-ingredients-white-background-space-text_185193-9920.jpg?w=1480);
+    /* -webkit-transform: rotate(180deg); */
+
+
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+h1{ 
+    /* font-family: ; */
+    text-align: center;
+    margin: auto auto;
+}
+.dishes{
+    width: 100%;
+
+}
+.row{
+align-items: center;
+}
+
+#welcoming-msg{
+    padding-top: 350px;
+    width: 50%;
+}
+
+#indian-dish{
+    width: 60%;
+    margin-left: 80px;
+
+}
