@@ -1,0 +1,65 @@
+* {
+  font-family: "Kalam", cursive;
+}
+
+body {
+  background-color: #f0f0f0 !important;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+  .list {
+    flex-direction: column-reverse;
+  }
+  .recipe_img img {
+    max-width: none;
+    width: 100%;
+  }
+  .description {
+    margin-top: 2rem;
+  }
+}
+
+.ing,
+th,
+tr {
+  text-align: left;
+}
+th {
+  border-bottom: 1px solid black;
+}
+
+.description {
+  min-width: 400px;
+}
+.name {
+  margin: 2rem 0;
+}
+
+.recipe_img * {
+  max-width: 75%;
+  max-height: 75%;
+  border-radius: 10px;
+  float: right;
+}
+
+.description {
+  margin-right: 3rem;
+}
+
+.description_recipe {
+  justify-content: center;
+  margin-top: 4rem;
+}
