@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
     </style>
   </head>
   <body>
-    <div class="container w-75">
+    <div class="recipe">
       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
           <a
@@ -86,92 +86,117 @@
           </div>
         </div>
       </nav>
-      <div class="page2-head">
-        <h1>Turkish Cuisine</h1>
-        <p>
-          Turkish cuisine is a fusion of Central Asian, Middle Eastern, and
-          Mediterranean flavors and techniques. It's known for its rich flavors
-          and use of fresh herbs and spices. Signature dishes include kebabs,
-          stuffed grape leaves, baklava, and Turkish delight. Meze, a selection
-          of small dishes, is a popular way to start a meal. Turkish tea and
-          coffee are also important parts of the culinary culture.
-        </p>
+      <div class="name">
+        <h1>Chicken Tikka Masala</h1>
       </div>
-    </div>
-    <div class="container w-75">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mb-4">
-        <a href="./dishes/fooddish.html"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/manti.jpeg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
-        <a href="https://www.google.com/"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/imambayildi.jpg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
-        <a href="#"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/lahmacun.jpg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
-        <a href="#"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/menemen.jpg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
-        <a href="#"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/cay.jpg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
-        <a href="#"
-          ><div class="col">
-            <div class="inner m-auto">
-              <div class="card">
-                <img src="./images/asure.jpg" />
-                <div class="card-body">
-                  <h4 class="card-text">Lorem, ipsum.</h4>
-                </div>
-              </div>
-            </div>
-          </div></a
-        >
+
+      <div class="list">
+        <div class="description">
+          <div class="ingredients">
+            <h2 id="header2">Ingredients</h2>
+            <table class="ing">
+              <tr>
+                <th>Basmati rice</th>
+                <th>1 cup</th>
+              </tr>
+              <tr>
+                <th>oil</th>
+                <th>1 ½ tablespoons</th>
+              </tr>
+              <tr>
+                <th>
+                  boneless skinless chicken thighs, <br />cut into 1-inch chunks
+                </th>
+                <th>1 ½ pounds</th>
+              </tr>
+              <tr>
+                <th>medium sweet onion, diced</th>
+                <th>½</th>
+              </tr>
+              <tr>
+                <th>tomato paste</th>
+                <th>3 tablespoons</th>
+              </tr>
+              <tr>
+                <th>garlic, minced</th>
+                <th>3 cloves</th>
+              </tr>
+              <tr>
+                <th>freshly grated ginger</th>
+                <th>1 tablespoon</th>
+              </tr>
+              <tr>
+                <th>garam masala</th>
+                <th>1 ½ teaspoons</th>
+              </tr>
+              <tr>
+                <th>chili powder</th>
+                <th>1 ½ teaspoons</th>
+              </tr>
+              <tr>
+                <th>ground turmeric</th>
+                <th>1 ½ teaspoons</th>
+              </tr>
+              <tr>
+                <th>tomato sauce</th>
+                <th>2 tablespoons</th>
+              </tr>
+              <tr>
+                <th>chicken stock</th>
+                <th>1 cup</th>
+              </tr>
+              <tr>
+                <th>Cream</th>
+                <th>½ cup</th>
+              </tr>
+              <tr>
+                <th>chopped fresh cilantro leaves</th>
+                <th>2 tablespoons</th>
+              </tr>
+              <tr>
+                <th>salt and freshly ground black pepper, to taste</th>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table class="table">
+              <tr>
+                <th>Prep Time</th>
+                <th>cook Time</th>
+                <th>Total Time</th>
+                <th>Servings</th>
+              </tr>
+
+              <tr>
+                <td>10 minutes</td>
+                <td>20 minutes</td>
+                <td>20 minutes</td>
+                <td>4</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="recipe_img">
+          <img src="../images/manti.jpeg" />
+        </div>
+      </div>
+      <div class="description_recipe">
+        <h2>Chicken Tikka Masala recipes</h2>
+        <p>
+          1. In a large saucepan of 2 cups water, cook rice according to package
+          instructions; set aside.<br />
+          2. Heat oil in a large stockpot or Dutch oven over medium heat.Season
+          chicken with salt and pepper, to taste. Add chicken and onion to the
+          stockpot and cook until golden, about 4-5 minutes.<br />
+          3. Stir in tomato paste, garlic, ginger,garam masala,chili powder and
+          turmeric until fragrant, about 1 minute.<br />
+          4. Stir in tomato sauce and chicken stock; season with salt and
+          pepper, to taste. Bring to a boil; reduce heat and simmer, stirring
+          occasionally, until reduced and slightly thickened, about 10 minutes.
+          5. Stir in heavy cream until heated through, about 1 minute. 6. Serve
+          immediately with rice, garnished with cilantro, if desired.
+        </p>
       </div>
       <div class="row bg-warning g-0 px-5 py-2 p-2">
         <div class="col text-center">
