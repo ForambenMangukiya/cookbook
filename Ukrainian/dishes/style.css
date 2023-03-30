@@ -49,8 +49,10 @@ th {
 }
 
 .recipe_img * {
-  max-width: 350px;
+  max-width: 75%;
+  max-height: 75%;
   border-radius: 10px;
+  float: right;
 }
 
 .description {
