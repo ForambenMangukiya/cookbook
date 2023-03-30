@@ -1,0 +1,246 @@
+* {
+  font-family: "Kalam", cursive;
+}
+
+img {
+  height: 240px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+.indien_container {
+  width: 100%;
+  height: 100%;
+}
+.header_container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.menu_container {
+  margin-top: 20px;
+}
+
+.first_menu {
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+}
+
+.first_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.first_dish:hover,
+.second_dish:hover,
+.third_dish:hover,
+.fourth_dish:hover,
+.fifth_dish:hover,
+.sixth_dish:hover,
+.seventh_dish:hover,
+.eightth_dish:hover,
+.nineth_dish:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+.second_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.third_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#first_img {
+  width: 350px;
+  height: 350px;
+}
+#second_img {
+  width: 350px;
+  height: 350px;
+}
+#third_img {
+  width: 350px;
+  height: 350px;
+}
+.second_menu {
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+}
+
+.fourth_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.fifth_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.sixth_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#fourth_img {
+  width: 350px;
+  height: 350px;
+}
+#fifth_img {
+  width: 350px;
+  height: 350px;
+}
+#sixth_img {
+  width: 350px;
+  height: 350px;
+}
+
+.third_menu {
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+}
+
+.seventh_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.eightth_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.nineth_dish {
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#seventh_img {
+  width: 350px;
+  height: 350px;
+}
+#eightth_img {
+  width: 350px;
+  height: 350px;
+}
+#nineth_img {
+  width: 350px;
+  height: 350px;
+}
+
+#header {
+  margin-top: 7px;
+  margin-left: 12px;
+}
+
+.recipe {
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+}
+.description {
+  width: 783px;
+  height: 550px;
+}
+
+.ingredients {
+  width: 773px;
+  height: 500px;
+}
+
+.ingredientss {
+  width: 773px;
+  height: 550px;
+}
+
+#header2 {
+  margin-left: 50px;
+  padding: 7px;
+}
+
+.table,
+th,
+td {
+  border: 1px solid black;
+  margin-top: 60px;
+  width: 773px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ing,
+th,
+tr {
+  border-style: hidden;
+}
+
+.recipe_img {
+  margin-left: 20px;
+  width: 676px;
+  margin-top: 20px;
+}
+
+.recipe_img2 {
+  width: 600px;
+  height: 450px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+.description_recipe {
+  justify-content: center;
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .first_menu,
+  .second_menu,
+  .third_menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
