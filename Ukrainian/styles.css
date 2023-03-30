@@ -1,7 +1,9 @@
 body {
-  background-color: #f0f0f0;
+  background-color: white;
   font-family: "Kalam", cursive;
   font-weight: 700;
+}
+.container {
 }
 
 .page2-head {

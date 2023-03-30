@@ -2,15 +2,16 @@
   font-family: "Kalam", cursive;
 }
 
-body {
+/* body {
   background-color: #f0f0f0 !important;
-}
+} */
 
 .recipe {
   display: flex;
   flex-direction: column;
   max-width: 80%;
   margin: 0 auto;
+  background-color: #f8f9fa;
 }
 
 .list {
