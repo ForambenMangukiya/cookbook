@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning py-2">
         <div class="container-fluid">
           <a
             class="navbar-brand"
@@ -95,15 +95,13 @@
         <h1 id="welcoming-msg">Where will your hunger take you today</h1>
       </div>
 
-      <div
-        class="row row-cols-1 row-cols-md-2 bg-dark text-white g-0 px-5 py-1"
-      >
-        <div class="col">
-          <a href="Ukrainian/index.html"
-            ><img class="dishes" src="dishes/borscht.png" alt=""
-          /></a>
+      <div class="d-md-flex flex-row bg-dark text-white g-0 px-5 py-2">
+        <div class="col d-flex flex-column justify-content-center">
+          <a href="Ukrainian/index.html">
+            <img class="dishes" src="dishes/borscht.png" alt="" />
+          </a>
         </div>
-        <div class="col">
+        <div class="col d-flex flex-column justify-content-center pt-2">
           <h2>Ukraine</h2>
           <p>
             Are you curious about the food in Ukraine? If so, you’ve come to the
@@ -120,54 +118,73 @@
       </div>
 
       <div
-        class="row row-cols-1 row-cols-md-2 bg-dark text-white g-0 px-5 py-1"
+        class="d-md-flex flex-row-reverse justify-content-end bg-dark text-white g-0 px-5 py-2"
       >
-        <div class="col">
-          <div class="align-right">
-            <h2>India</h2>
-            <p>
-              Are you curious about the food in Ukraine? If so, you’ve come to
-              the right place. I’ll introduce you to my favorite Ukrainian
-              dishes so that you can experience Ukraine even if you haven’t had
-              the pleasure of visiting.
-            </p>
-          </div>
-          <button type="button" class="btn btn-warning">Take me there</button>
+        <div class="col d-flex flex-column justify-content-center">
+          <a href="Indian/index.html">
+            <img
+              id="indian-dish"
+              class="dishes"
+              src="dishes/Indian.png"
+              alt=""
+            />
+          </a>
         </div>
-        <div class="col justfiy-center">
-          <img id="indian-dish" class="dishes" src="dishes/Indian.png" alt="" />
+        <div class="col d-flex flex-column justify-content-center">
+          <h2>India</h2>
+          <p>
+            Indian cuisine is renowned for its diverse and vibrant flavors,
+            aromatic spices, and rich cultural history. From savory curries to
+            flavorful rice dishes and crispy breads, Indian cuisine offers a
+            wide range of delicious options for every taste bud.
+          </p>
+          <a href=""
+            ><button type="button" class="btn btn-warning">
+              Take me there
+            </button></a
+          >
         </div>
       </div>
 
-      <div
-        class="row row-cols-1 row-cols-md-2 bg-dark text-white g-0 px-5 py-1"
-      >
+      <div class="d-md-flex flex-row bg-dark text-white g-0 px-5 py-2">
         <div class="col">
           <img class="dishes" src="dishes/Dolma.png" alt="" />
         </div>
-        <div class="col">
+        <div class="col d-flex flex-column justify-content-center">
           <h2>Middle east</h2>
           <p>
-            Are you curious about the food in Ukraine? If so, you’ve come to the
-            right place. I’ll introduce you to my favorite Ukrainian dishes so
-            that you can experience Ukraine even if you haven’t had the pleasure
-            of visiting.
+            Middle Eastern cuisine is a rich and flavorful culinary tradition
+            that has been shaped by centuries of cultural exchange and
+            migration. The cuisine is known for its bold and aromatic flavors,
+            with spices such as cumin, coriander, and sumac featuring heavily in
+            many dishes.
           </p>
-          <button type="button" class="btn btn-warning">Take me there</button>
+          <a href=""
+            ><button type="button" class="btn btn-warning">
+              Take me there
+            </button></a
+          >
         </div>
       </div>
 
       <div
-        class="row row-cols-1 row-cols-md-2 bg-dark text-white g-0 px-5 py-1"
+        class="d-md-flex flex-row-reverse justify-content-end bg-dark text-white g-0 px-5 py-3 pb-5"
       >
         <div class="col">
+          <a href="Turkish/index.html"
+            ><img class="dishes" src="dishes/Turkish.png" alt=""
+          /></a>
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
           <div class="align-right">
             <h2>Turkey</h2>
             <p>
-              Are you curious about the food in Ukraine? If so, you’ve come to
-              the right place. I’ll introduce you to my favorite Ukrainian
-              dishes so that you can experience Ukraine even if you haven’t had
-              the pleasure of visiting.
+              Turkish cuisine is a feast for the senses, with a mouthwatering
+              array of dishes that offer a perfect balance of rich flavors and
+              wholesome ingredients. From succulent meat dishes like doner kebab
+              and lamb chops to hearty vegetarian options like stuffed eggplant
+              and spinach borek, Turkish cuisine has something to satisfy every
+              taste bud.
             </p>
           </div>
 
@@ -177,14 +194,9 @@
             </button></a
           >
         </div>
-        <div class="col">
-          <a href="Turkish/index.html"
-            ><img class="dishes" src="dishes/Turkish.png" alt=""
-          /></a>
-        </div>
       </div>
 
-      <div class="row bg-warning g-0 px-5 py-2 p-2">
+      <div class="row bg-warning g-0 px-5 py-4 p-2">
         <div class="col text-center">
           <h2>Subscribe</h2>
           <p>sign up for new recipes</p>
